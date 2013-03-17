@@ -23,7 +23,7 @@
     //CoffeeComplete Plus (Autocompletion) - https://github.com/justinmahar/SublimeCSAutocompletePlus
     { "keys": ["ctrl+alt+d"], "command": "coffee_goto_definition" },
     { "keys": ["f12"], "command": "coffee_goto_definition" },
- 
+
     //CoffeeScript (Better) - https://github.com/aponxi/sublime-better-coffeescript
     //not needed - cover by linter
     //{"keys": ["alt+shift+s"], "command": "check_syntax"},
@@ -46,13 +46,21 @@
         {"operand": false, "operator": "equal", "match_all": true, "key": "setting.is_widget"},
         {"match_all": true, "key": "emmet_action_enabled.expand_as_you_type"}
       ]
-    }, 
+    },
 
     //Hayaku - https://github.com/hayaku/hayaku
     //Like Emmet, many others defined should be picked up automatically
     {
         "keys": ["tab"],"command": "hayaku", "context": [{"key": "hayaku_css_context"}]
     },
+
+    //HttpRequester - https://github.com/braindamageinc/SublimeHttpRequester
+    {
+        "keys": ["ctrl+alt+r"], "command": "http_requester"
+    },
+    // {
+    //     "keys": ["f5"], "command": "http_requester_refresh"
+    // },
 
     //PrettyJSON - https://github.com/dzhibas/SublimePrettyJson
     { "keys": ["ctrl+alt+j"], "command": "prettyjson" },
